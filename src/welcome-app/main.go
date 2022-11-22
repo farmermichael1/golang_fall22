@@ -26,7 +26,7 @@ func main() {
 
 	//Our HTML comes with CSS that go needs to provide when we run the app. Here we tell go to create
 	// a handle that looks in the static directory, go then uses the "/static/" as a url that our
-	//html can refer to when looking for our css and other files.
+	//html can refer to when looking for our css and other files. Extra Comment
 
 	http.Handle("/static/", //final url can be anything
 		http.StripPrefix("/static/",
